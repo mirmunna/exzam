@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - exzam </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mir Munna Test Project - Exam</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="login-container">
+        <h1>Mir Munna Test Project - Login</h1>
+        <form id="login-form">
+            <input type="text" id="userId" placeholder="User ID" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <p id="error-message"></p>
+        </form>
+    </div>
+
+    <div id="message-container" style="display: none;">
+        <h2>Dear Students,</h2>
+        <p>This is just a test paper, so there's no need to worry about it. The purpose of this test is to help you get familiar with the format and process, so just do your best and relax. Remember, this is a learning experience, and it's okay to make mistakes.</p>
+        <p>Good luck, and don't stress!</p>
+        <button id="start-exam">Start Exam</button>
+    </div>
+
+    <div id="exam-container" style="display: none;">
+        <h1>Mir Munna Test Project - Exam</h1>
+        <div id="question-container"></div>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="timer">Time Remaining: 2:00</div>
+        <button id="submit-exam">Submit Exam</button>
+    </div>
+
+    <div id="result-container" style="display: none;">
+        <h1>Exam Results</h1>
+        <p>Your score: <span id="score"></span></p>
+        <div id="answer-key-container">
+            <h2>Answer Key</h2>
+            <div id="answer-key"></div>
+        </div>
+       <form action="https://submit-form.com/2YnsUlYj3">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" placeholder="Name" required="" />
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Email" required="" />
+  <label for="message">Message</label>
+  <textarea
+    id="message"
+    name="message"
+    placeholder="Message"
+    required=""
+  ></textarea>
+  <button type="submit">Send</button>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
